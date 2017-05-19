@@ -28,54 +28,76 @@ header {
 nav {
 	background-color: #ebebeb;
 	color: #777;
-	padding: 0px;
+	padding-top: 30px;
 	text-align: center;
 	height: 75px;
 }
 
 
 .container {
+	display: inline-block;
 	width: 960px;
 	background-color: #777;
 	color: #ebebeb;
-	border: solid 1px black;
-	overflow: auto;
+	border: solid 1px #777;
+	overflow: hidden;
 	margin-top: 0px;
 	padding-top: 0px;
-	}
+}
 
 #left {
+	display: inline-block;
 	background color: #ebebeb;
 	text-align: top;
 	color: #777;
-	padding: 0px;
+	padding: 20px 0 20px 0;
 	margin-left: 0px;
 	margin-top: 0px;
 	width: 495px;
-	border: solid 1px green;
+	border: solid 1px #777;
 	position: left;
-	overflow: auto;
+	overflow: hidden;
 	clear: both;
 }
 
 #inside {
 	background-color: #777;
 	color: #ebebeb;
-	padding: 0px;
+	margin-left: 15px;
 	margin-top: 5px;
-	border: solid 1px none;
+	width: 455;
+	border: solid 1px #777;
 }
 
 #right {
+	display: inline-block;
 	background color: #ebebeb;
 	color: #777;
-	padding: 0px;
+	padding-top: 100px;
 	margin-right: 0px;
 	margin-top: 0px;
-	width: 425px;
-	border: solid 1px yellow;
+	width: 455px;
+	border: solid 1px #777;
+	height: 323px;
 	float: right;
 	clear: top;
+	overflow: auto;
+}
+
+#h {
+	background-color: #ebebeb;
+	color: #777;
+	padding: 0px;
+	margin: 15px;
+	text-align: center;
+}
+
+#p {
+	background-color: #ebebeb;
+	color: #777;
+	padding: 0px;
+	margin: 15px;
+	text-align: center;
 }
 
 section {
@@ -84,7 +106,7 @@ section {
 	width: 425px;
 	padding: 0px;
 	text-align: center;
-	overflow: auto;
+	overflow: hidden;
 }
 
 aside {
